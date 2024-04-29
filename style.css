@@ -1,1 +1,22 @@
-/* Start coding here */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  box-sizing: border-box;
+  background: linear-gradient(to right, hsl(0, 100%, 70%), hsl(240, 100%, 70%));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 200px;
+}
+
+.box {
+  width: 500px;
+  height: 320px;
+  border-radius: 10px;
+  padding: 48px;
+  text-align: center;
+  background: hsla(0, 50%, 100%, 0.5);
+}
